@@ -3,8 +3,8 @@ A minimal, YAML-driven CV setup using Pandoc, XeLaTeX (`moderncv`), and GitHub A
 
 ## Usage
 1. Click Use this template.
-2. Update details.yml with your information.
-3. Push to main. The compiled PDF will be available under the Actions tab as a build artifact.
+2. Update `details.yml` with your information.
+3. Push to `main`. The compiled PDF will be available under the Actions tab as a build artifact.
 
 ## YAML Formatting Tips
 - Escape LaTeX commands inside double quotes: info: "Supervisor: \\textit{Name}"
