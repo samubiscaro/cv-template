@@ -1,0 +1,24 @@
+name: Compile CV
+on: 
+  workflow_dispatch: # This enables the "Run workflow" button in GitHub
+
+jobs:
+  build_cv:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install Pandoc and TeX Live
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended texlive-plain-generic texlive-fonts-extra
+
+      - name: Run Makefile
+        run: make
+
+      - name: Upload PDF
+        uses: actions/upload-artifact@v4
+        with:
+          name: CV
+          path: CV.pdf # Ensure this matches your Makefile's output name

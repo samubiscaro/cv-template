@@ -1,0 +1,89 @@
+---
+# Personal Information
+first: "Mario" #YOUR_FIRST_NAME
+last: "Rossi" #YOUR_LAST_NAME
+email: "your.email@university.edu"
+
+# Education Section
+education:
+  - year: "2026--Present"
+    degree: "Ph.D. Candidate in Mathematics"
+    uni: "University Name"
+    url: "https://www.university.edu/"
+    city: "City"
+    country: "Country"
+    info: "Supervisor: \\textit{Prof. Supervisor Name}."
+  
+  - year: "2024--2026"
+    degree: "Master of Science in Mathematics"
+    uni: "University Name"
+    url: "https://www.university.edu/"
+    city: "City"
+    country: "Country"
+    info: "Thesis: \\textit{Your Master Thesis Title}\\newline Supervisor: \\textit{Prof. Supervisor Name}\\newline Final Grade: \\textit{70/110}."
+    # You can also add Expected Graduation: \\textit{October 2026}.
+  - year: "2021--2024"
+    degree: "Bachelor of Science in Mathematics"
+    uni: "University Name"
+    url: "https://www.university.edu/"
+    city: "City"
+    country: "Country"
+    info: "Thesis: \\textit{Your Bachelor Thesis Title}\\newline Supervisor: \\textit{Prof. Supervisor Name}."
+
+# Experience Section
+experience:
+  - year: "2025--2026"
+    title: "Teaching Assistant"
+    uni: "University Name"
+    url: "https://www.university.edu/"
+    city: "City"
+    info: "Assisted in exercise classes for undergraduate courses."
+  
+  - year: "2024--2026"
+    title: "Peer Tutor"
+    uni: "Institution Name"
+    url: "https://www.institution.edu/"
+    city: "City"
+    info: "Provided academic tutoring and guidance to undergraduate students."
+
+# Conferences, Summer Schools & Workshops
+conferences:
+  - date: "Jun 2026"
+    name: "Conference or Workshop Title"
+    url: "https://event-website.org/"
+    uni: "Host Institution"
+    uniurl: "https://www.institution.edu/"
+    city: "City"
+    country: "Country"
+
+  - date: "Mar 2026"
+    name: "School or Seminar Title"
+    url: "https://event-website.org/"
+    uni: "Host Institution"
+    uniurl: "https://www.institution.edu/"
+    city: "City"
+    country: "Country"
+
+# Honors & Fellowships
+honors:
+  - year: "2025--2026"
+    title: "Scholarship or Fellowship Title"
+    info: "Brief description of the award, criteria, or merit requirements."
+  
+  - year: "2021--2026"
+    title: "Another Scholarship"
+    info: "Covers tuition, room, and board based on academic performance. You can easily add more Honors."
+
+# Skills
+skills:
+  - category: "Programming"
+    list: "Python, C\\texttt{++}, \\LaTeX, Git."
+  - category: "Languages"
+    list: "Language 1 (Native), Language 2 (Fluent), Language 3 (Basic)."
+
+# Optional GDPR / Personal Data Declaration (Common in EU)
+show_personal_data: false # Write "true" if you want the declaration to appear. 
+personal_data_text: |
+  Consent to data processing in accordance with GDPR (EU 2016/679).
+#You can also change this message. 
+---

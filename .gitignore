@@ -1,0 +1,60 @@
+##############################
+# LaTeX build artifacts
+##############################
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.nav
+*.snm
+*.vrb
+*.xdv
+
+# Intermediate and temporary files
+*.tmp
+*.bak
+*.backup
+*.swp
+*.swo
+
+##############################
+# BibTeX / Biber
+##############################
+*.bib.bak
+*.bbl-SAVE-ERROR
+
+##############################
+# LaTeX packages / tools
+##############################
+latex.out/
+texput.log
+
+##############################
+# macOS
+##############################
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Spotlight / Time Machine
+.Spotlight-V100
+.Trashes
+
+##############################
+# Latexmk
+##############################
+.latexmkrc.vscode/
+
+.vscode/
